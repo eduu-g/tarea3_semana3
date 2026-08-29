@@ -1,34 +1,23 @@
-# Tarea Semana 3 - Fundamentos de Programación
+# Análisis de datos de ventas
 
-## Descripción
+Analiza datos económicos de ventas durante seis meses utilizando R.
 
-Este repositorio contiene el desarrollo de la tarea de la semana 3 del curso Fundamentos de Programación para Análisis Económico.
+## Datos
 
-El objetivo fue aplicar conceptos básicos de programación en R para analizar datos económicos de ventas durante seis meses.
+Datos de ventas utilizados en la tarea, correspondientes a seis meses. Archivo en `data/raw/ventas.csv`.
 
-## Estructura del repositorio
+## Cómo correrlo
 
-- `data/raw/ventas.csv`: contiene los datos utilizados en el análisis.
-- `scripts/tarea_s3.R`: contiene el código desarrollado para la tarea.
+Abrir el proyecto de RStudio y ejecutar `scripts/tarea_s3.R`.
 
-## Datos utilizados
+## Estructura
 
-Se analizaron tres variables correspondientes a seis meses de ventas:
-
-- `precio`: precio de venta.
-- `unidades`: cantidad de unidades vendidas.
-- `costos`: costos asociados a cada mes.
-
-## Análisis realizado
-
-El script incluye:
-
-- Creación y verificación de vectores.
-- Selección de elementos por posición.
-- Filtrado de datos mediante condiciones.
-- Uso de `sum()` y `mean()`.
-- Cálculo del costo unitario.
-- Estadísticas descriptivas mediante `mean()`, `median()`, `sd()` y `quantile()`.
+```text
+tarea3_semana3/
+├── data/raw/      # datos crudos (no se modifican)
+├── scripts/       # código R
+└── README.md      # este archivo
+```
 
 ## Autor
 
